@@ -1,0 +1,20 @@
+.footer-items-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #35383f;
+}
+
+.footer-items-wrapper > .footer-item {
+    padding: 30px 66px;
+    color: white;
+    background-color: #35383f;
+    border: 2px solid #66676c;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 2em;
+}
+.footer-items-wrapper > .footer-item a {
+    text-decoration: none;
+    color: white;
+}
