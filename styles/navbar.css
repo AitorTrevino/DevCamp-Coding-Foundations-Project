@@ -1,0 +1,104 @@
+.navigation-bar {
+    height: 120px;
+    background-color: #060606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar > .logo img {
+    width: 220px;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.navigation-bar > .exploration-bar {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 50px;
+    margin-top: 14px;
+}
+
+.navigation-bar > .exploration-bar > .explore {
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+    color: #f1ee96;
+
+}
+.navigation-bar > .exploration-bar > .exploration-links-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-bar > .exploration-bar > .exploration-links-wrapper a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navigation-bar > .exploration-bar > .exploration-links-wrapper > .spark-wrapper {
+    display: flex;
+    flex-direction: row;
+    color: #7f8487;
+    margin-left: 10px;
+
+}
+
+.navigation-bar > .exploration-bar > .exploration-links-wrapper > .spark-wrapper > .spark-link a {
+    color: #7f8487;
+
+}
+
+/* Button styles */
+
+
+.navigation-bar > .user-buttons-wrapper {
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.navigation-bar > .user-buttons-wrapper > .create-button i {
+    color: #51e92f;
+
+}
+.navigation-bar > .user-buttons-wrapper > .search i {
+    font-size: 2.1em;
+    text-decoration: none;
+    color: #7f8487;
+    transition: 0.5s;
+}
+
+.navigation-bar > .user-buttons-wrapper > .search i:hover {
+    color: #f1ee96;
+}
+
+.btn {
+    color: white;
+    background-color: #34393f;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 1.2em;
+    outline: none;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn:active {
+    background-color: #0f0f0f;
+}
+
+.imgtext > .CodeProjects {
+    color: #73b6d7;
+}
